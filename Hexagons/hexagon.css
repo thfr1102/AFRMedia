@@ -1,0 +1,97 @@
+
+/*                     HEXAGON                     */
+
+/*  If you change some of the code, it may require you to do a lot of changes in the other css rules too
+    Hover effect currently NOT working
+*/
+
+/*  Hexagon CSS  */
+
+.hexagon {
+  margin: 0 auto;
+  width:225px;
+  height: 200px;
+  -webkit-clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  background:black;
+  overflow:hidden;
+  display:inline-block;
+}
+
+
+/*  Hexagon List space fix  */
+
+.hexagon-spacing-fix:nth-child(odd) {
+  list-style-type:none;
+  margin: 0px; 
+  padding: 0px;
+  display:-webkit-flex;
+}
+.hexagon-spacing-fix:nth-child(even) {
+  list-style-type:none;
+  padding-left: 120px;
+  margin-top: -106px;
+  display:-webkit-flex;
+}
+
+.hexagon-spacing-fix li:nth-child(odd) {
+  
+}
+.hexagon-spacing-fix li:nth-child(even) {
+  padding-left: 118px;
+  padding-right: 118px;
+}
+
+.hex-last-even li:nth-child(even) {
+  padding-left: 119px;
+}
+
+.hex-last-element li:last-child {
+  margin-right: -46px;
+}
+  
+.hexagon-spacing-fix:nth-child(3) {
+  margin-top: -131px;
+}
+.hexagon-spacing-fix:nth-child(5) {
+  margin-top: -131px;
+}
+.hexagon-spacing-fix:nth-child(7) {
+  margin-top: -131px;
+}
+
+
+
+.hexagon-image-class {
+  margin: -15px 0px 0px 0px !important;
+  padding: 0em !important;
+  height: 216px !imporant;
+  max-width: 250px !important;
+  width:100%;
+  background-color: hsla(142, 42%, 67%, 1.0);
+}
+
+
+/*  Fixing the size, so the hexagons doesn't get all messed up and cluttered  */
+.post-61 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/*  If we want to have text in the picture, hover effect currently NOT working  */
+
+.hexa-text-box {
+  margin-top: -143px;
+  margin-left: 19px;
+  width: 100%;
+  height: 100%;
+  color: #000DFF;
+  font-size: x-large;
+  font-family: 'Lato', sans-serif;
+}
+.hexa-text {
+  border-bottom: thin solid #000DFF;
+}
+.hexa-text-info {
+  font-size: 14px;
+}

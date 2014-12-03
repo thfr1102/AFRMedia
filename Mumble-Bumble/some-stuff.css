@@ -1,0 +1,40 @@
+/*  No idea of what this does!  */
+
+.comment-metadata {
+  text-align: right;
+  margin-top: -27px;
+}
+.comment-metadata a {
+  color: hsla(0, 10%, 80%, 1.0);
+  text-decoration: none;
+}
+.comment-metadata a:hover {
+  color: hsla(0, 0%, 0%, 1.0);
+}
+
+
+
+
+
+
+
+/*  Comments area. Text size fix  */
+.comments-title {
+  font-size: 2rem;
+}
+.comment-reply-title {
+  font-size:2rem;
+  margin-bottom: 0px;
+}
+/*  Comments Area. From fix  */
+.logged-in-as {
+  margin-top: 0.1rem;
+  margin-left: 3rem;
+  color: hsla(0, 10%, 80%, 1.0);
+}
+.logged-in-as a {
+  color: hsla(0, 10%, 80%, 1.0);
+}
+.logged-in-as a:hover {
+  color: hsla(0, 0%, 0%, 1.0);
+}

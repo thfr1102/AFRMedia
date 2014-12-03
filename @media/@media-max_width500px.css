@@ -1,0 +1,13 @@
+@media only screen and (max-width: 500px) {
+  .site-head {
+    padding: 0 0;
+  }
+  .main-navigation ul {
+    background-color: rgba(0,0,0,1);
+  }
+  .site-header {
+    background-image: url(http://afrmedia.vangenplotz.no/wp-content/uploads/2014/11/final.png);
+    background-size: cover;
+    background-position: 50% 64%;
+  }
+}

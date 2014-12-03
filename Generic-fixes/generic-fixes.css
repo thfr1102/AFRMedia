@@ -1,0 +1,34 @@
+/*  Image Fix  */
+.wp-caption {
+  border: none;
+}
+.wp-caption .wp-caption-text {
+  margin: 0 0;
+}
+.wp-caption-text {
+  text-align: left;
+  margin-top: -2rem !important;
+  margin-top: -0.7rem !important;
+  margin-left: 20px !important;
+  color: grey;
+}
+
+
+/*  Removing the general byline at the top of the articles  */
+.byline {
+  display: none !important;
+}
+
+
+
+/*                     MainPage                  */
+
+/*  Removing the link on the start page  */
+.post-61 .post-header .post-title a {
+  display: none;
+}
+
+/*  If we want to have comments available, but just not on the front page.  */
+.page-id-61 .comments-area {
+  display: none;
+}

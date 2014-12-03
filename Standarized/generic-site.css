@@ -1,0 +1,63 @@
+/* Load fonts from google. */
+  /*  Domine  */
+@import url(http://fonts.googleapis.com/css?family=Domine:400,700);
+  /*  Lato  */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+  /*  FontAwesome  */
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+/* Main CSS Below */
+body {
+  font-size: 1.7rem;
+}
+
+
+/*   Background Image/color!
+.content {
+  background-image: url(http://afrmedia.vangenplotz.no/wp-content/uploads/2014/11/HexagonBackground.png);
+  background-color: #ccc;
+}
+*/
+
+
+/*  Main content size (can be changed with @media)  */
+.hentry {
+  max-width: 913px !important;
+}
+
+
+/*  Generic Fonts and sizes for text types */
+.post-title {
+  font-family: 'Domine', serif;
+  font-weight: 700;
+}
+.p1 {
+  font-family: 'Domine', serif;
+  font-weight: 700;
+}
+.p3 {
+  font-family: 'Domine', serif;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h6.p3 {
+  margin-top: 6rem;
+  margin-bottom: 0px;
+  
+}
+h6, b {
+  margin-top: 6rem;
+  margin-bottom: 0px;
+}
+
+
