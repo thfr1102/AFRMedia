@@ -1,0 +1,89 @@
+/*  Setting the bar to the top / high z-index but not too high / color: black/transparent  */
+
+.main-navigation {
+  position: fixed;
+  z-index: 50;
+  background: hsla(0, 0%, 0%, 0.6);
+}
+/*  Navbar links should be white  */
+.main-navigation a {
+  color: white !important;
+}
+
+/*  Top Navigation Meny CSS  */
+/*  Setting the general text type and size  */
+.nav-menu li {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+}
+
+/*  Adding the little house at "home" link  */
+.nav-menu li:nth-child(1) :before {
+  content: "\f015   ";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 2rem;
+}
+
+/*  Actual coloring of the links (currently using HSLA)  */
+.nav-menu li:nth-child(1) {
+
+  border-top: solid thin hsla(195, 98%, 51%, 1.0);
+  border-bottom: solid thin hsla(195, 98%, 51%, 1.0);
+}
+.nav-menu li:nth-child(2) {
+  border-top: solid thin hsla(142, 42%, 67%, 1.0);
+  border-bottom: solid thin hsla(142, 42%, 67%, 1.0);
+}
+.nav-menu li:nth-child(3) {
+  border-top: solid thin hsla(34, 100%, 50%, 1.0);
+  border-bottom: solid thin hsla(34, 100%, 50%, 1.0);
+}
+.nav-menu li:nth-child(4) {
+  border-top: solid thin hsla(0, 100%, 72%, 1.0);
+  border-bottom: solid thin hsla(0, 100%, 72%, 1.0);
+}
+.nav-menu li:nth-child(5) {
+  border-top: solid thin hsla(282, 96%, 61%, 1.0);
+  border-bottom: solid thin hsla(282, 96%, 61%, 1.0);
+}
+
+/*  Adding the colors when you hover over the links  */
+.nav-menu li:nth-child(1) :hover {
+  background: hsla(195, 98%, 51%, 1.0);
+}
+.nav-menu li:nth-child(2) :hover {
+  background: hsla(142, 42%, 67%, 1.0);
+}
+.nav-menu li:nth-child(3) :hover {
+  background: hsla(34, 100%, 50%, 1.0);
+}
+.nav-menu li:nth-child(4) :hover {
+  background: hsla(0, 100%, 72%, 1.0);
+}
+.nav-menu li:nth-child(5) :hover {
+  background: hsla(282, 96%, 61%, 1.0);
+}
+
+/*  Fixing the navigation bar to center (a simple bypass of the current setup)  */
+.main-navigation ul {
+  float: center;
+}
+
+
+/*  If we want the logo on the left side of our nav-bar  */
+.main-navigation:before {
+  content: url(http://afrmedia.vangenplotz.no/wp-content/uploads/2014/11/HexaLogo1-150x150.png);
+}
+/*  Fixes its position 
+.main-navigation {
+  display: -webkit-box;
+}
+
+
+/*  When reading an article, this is how we style the "next article" buttons  */
+.older-posts, .newer-posts {
+  border-radius: 100%;
+}

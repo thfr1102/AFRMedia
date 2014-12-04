@@ -1,0 +1,38 @@
+/*  Actuall Header  */
+
+.site-header {
+  background-image: url(http://afrmedia.vangenplotz.no/wp-content/uploads/2014/11/final.png);
+  background-size: cover;
+  background-position: 50% 64%;
+}
+
+
+/*  Current position for the logo  */
+.social-icons {
+  padding-top: 4rem;
+}
+/*  Allowing us to put it in inside the page without actually changing any of the HTML/PHP  */
+.social-icons:before {
+  content: url(http://afrmedia.vangenplotz.no/wp-content/uploads/2014/11/HexaLogo1-300x300.png);
+}
+
+/*  Removing the title of the "blog", we don't need it, since we have the logo  */
+.blog-title {
+  display: none;
+}
+
+/*  Moving the text "En reise gjennom København" under the logo  */
+.blog-description {
+  margin-top: -50px;
+}
+
+
+
+
+/* Remove from main page:  */
+
+/*
+.page-id-61 .site-header {
+	display: none;
+}
+*/
